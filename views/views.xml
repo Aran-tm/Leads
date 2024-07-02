@@ -9,12 +9,12 @@
                 <!-- Campos de ser necesario para agregar al formulario -->
                 <sheet>
                   <group>                    
-                      <field class="border border-secondary bg-info" name="name" widget="char" placeholder="Escriba su nombre"/>
+                      <field name="name" widget="char" placeholder="Escriba su nombre"/>
                       <field name="apellidos" widget="char" placeholder="Apellidos"/>
                       <field name="movil" widget="char" placeholder="Número de teléfono"/>
                       <field name="correo" widget="gmail" placeholder="Escriba su correo electrónico"/>
                       <field name="fecha_contacto" widget="date" placeholder="Elija una fecha"/>
-                      <field name="via" widget="selection" placeholder="Porfavor, seleccione uno"/>
+                      <field name="via" widget="selection" placeholder="Porfavor, seleccione una vía"/>
                   </group>                    
                 </sheet>
             </form>
